@@ -26,10 +26,6 @@
         display: flex;
         margin-left: auto;
 
-        // @include mobile {
-        //     display: none;
-        // }
-
         &-box {
             display: flex;
             padding: 0;
@@ -155,51 +151,3 @@
         }
     }
 }
-
-
-// .header {
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//     padding: 30px 0px;
-
-//     &-logo {
-//         cursor: pointer;
-//         margin-left: 20px;
-//     }
-
-//     &-con {
-//         display: flex;
-//         align-items: center;
-//         margin-right: 20px;
-//         gap: 24px;
-//         // width: 100%;
-
-//         &-menu {
-//             display: flex;
-//             align-items: center;
-//             justify-content: center;
-//             max-width: 500px;
-//             gap: 16px;
-
-//             // @include mobile {
-//             //     display: none;
-//             // }
-
-//             &-list {
-//                 display: flex;
-//                 align-items: center;
-//                 gap: 4px;
-//                 cursor: pointer;
-
-//                 p {
-//                     font-family: 'Roboto', sans-serif;
-
-//                     &:hover {
-//                         color: color;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }

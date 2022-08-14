@@ -22,8 +22,6 @@ function Body() {
               height: 25,
             },
           ]}
-          // imgLogo={logo}
-          // harmburgerMenuIcon={menuIcon}
           backgroundColor={"whitesmoke"}
           menuSummary={[
             {
@@ -39,8 +37,12 @@ function Body() {
         />
       </div>
 
-      <div style={{marginTop: "50px"}}>
-        <Button buttonText={"lorem"} buttonStyle={"btn-primary-solid"} buttonSize={"btn-small"}/>
+      <div style={{ marginTop: "50px" }}>
+        <Button
+          buttonText={"lorem"}
+          buttonStyle={"btn-primary-solid"}
+          buttonSize={"btn-small"}
+        />
       </div>
     </div>
   );
